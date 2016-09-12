@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="CustomRenderers\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -93,6 +94,7 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="CustomRenderers\CustomButtonRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DialogSample\DialogSample.Core.csproj">
